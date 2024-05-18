@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Js Practice</title>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>⭐ FizzBuzz Game:</h2>
+    <p>
+        - ( If the number is divisible by 3, the player must say “Fizz” instead of the number itself. If the number is divisible by 5, the player must say “Buzz”. If the number is divisible by 3 and 5, the player must say “FizzBuzz”.)
+    </p>
+    <h3>* Now, Solve the Problem with JavaScript 👍</h3>
+
+    <script>
+        for(let i = 1; i <= 100; i++){
+            if (i % 3 == 0 && i % 5 == 0){
+                console.log(`Here ${i} is divisable by 3 & 5 Now shout with 'FizzBuzz'`)
+            }
+            
+            else if(i % 5 == 0){
+                console.log(`Here ${i} is divisable by 5, This is 'Buzz'`)
+            }
+            else if(i % 3 == 0) {
+                console.log(`Here ${i} is divisable by 3 'Fizz'`)
+            }
+
+        }
+    </script>
+</body>
+</html>
